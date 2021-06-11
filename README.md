@@ -1,5 +1,5 @@
 # SoundCloud-Music-Player
-### Music player application which can play your favourite music anytime.
+### Music player application that can play your favorite music anytime.
 - Laptop view preferable.
 - Mobile view work in progress...
 

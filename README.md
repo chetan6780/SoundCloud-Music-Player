@@ -1,6 +1,6 @@
-# SoundCloud-Music-Player
-### Music player application that can play your favorite music anytime.
-- Only Desktop view Supported.
-- Mobile view - work in progress...
+<h1 align='center'> SoundCloud-Music-Player</h1>
 
-Powered by [SoundCloud](https://soundcloud.com/)
+<h3 align='center'> Music player application that can play your favorite music anytime.</h3>
+
+<div align='center'> Powered by <a href='https://soundcloud.com/'> SoundCloud </a>
+</div>

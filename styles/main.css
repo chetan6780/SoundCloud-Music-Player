@@ -4,6 +4,7 @@ body {
   height: 100%;
   width: 100%;
   min-height: 100%;
+  background: #e2e2e2;
 }
 
 #soundcloud-player .col {
@@ -43,7 +44,7 @@ body {
 
 #soundcloud-player .main {
   box-sizing: border-box;
-  padding: 30px;
+  padding: 0 30px 0 30px;
   margin: 30px;
 }
 
@@ -74,4 +75,15 @@ body {
   font-size: 20px;
   margin-right: 5px;
   padding: 10px;
+}
+.js-button {
+  background-color: rgb(20, 159, 124) !important;
+  color: white !important;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.31) !important;
+  text-align: center !important;
+}
+.card:hover {
+  box-shadow: none !important;
 }

@@ -112,7 +112,7 @@ SoundCloudAPI.renderTrack = (tracks, searchResult) => {
 SoundCloudAPI.getEmbed = (trackPermalink) => {
 
     SC.oEmbed(trackPermalink, { auto_play: true }).then((oEmbed) => {
-        console.log('oEmbed response: ', oEmbed);
+        // console.log('oEmbed response: ', oEmbed);
 
         let sideBar = document.querySelector(".col-left");
 
@@ -129,15 +129,15 @@ SoundCloudAPI.getEmbed = (trackPermalink) => {
     });
 }
 
-// 4. Get the track list from localStorage
+// 4. Get the track list from localStorage ----------------------------------------
 let sideBar = document.querySelector(".col-left");
 sideBar.innerHTML = localStorage.getItem("key");
 
-// 5. clear local storage
+// 5. clear local storage ----------------------------------------------------------
 let clrbtn = document.querySelector('.clearbtn');
-clrbtn.addEventListener("click",() => {
+clrbtn.addEventListener("click", () => {
     localStorage.clear();
-    sideBar.innerHTML='';
+    sideBar.innerHTML = '';
 })
 
 // END ----------------------------------------------------------------------------------
